@@ -19,7 +19,6 @@ public class ExampleResource {
         return "Hello RESTEasy";
     }
 
-
     @GET
     @Produces(MediaType.TEXT_PLAIN)
     @Path("/{name}")
